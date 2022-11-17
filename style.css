@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    font-family: "Cinzel" ,sans-serif;
+
+}
+.container{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: darkblue;
+    padding: 20px 35px 35px 35px;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px 13px black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.icon{
+  width: 75px;
+}
+.menuitem{
+    flex: 5;
+    text-align: right;
+}
+.menuitem--list{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.menuitem--link{
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+    font-family: "PT serif" ,serif;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding-top:15px;
+    letter-spacing: 0.8px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 7px;
+}
+.field{
+    width: 50%;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+input{
+    outline: none;
+    font-size: 12px;
+    color: black;
+    padding: 20px 15px 5px 5px;
+    margin-left: 20px;
+}
+.password{
+    margin: 10px;
+    border-radius: 15px 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: left;
+}
+.yahooid {
+    margin: 10px;
+    border-radius: 15px 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: left;
+}
+.checkbox{
+    margin-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: "PT serif" ,serif;
+    font-size: 10px;
+    margin: auto;
+}
+.dropdown{
+    position: relative;
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-family: "PT serif" ,serif;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width: 35%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: "Cinzel", serif;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    transition: all 0.5s;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+.link{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    font-family: "PT serif" ,serif;
+}
+.link--weblink{
+    text-decoration: underline;
+    color: darkslateblue;
+    font-size: 12px;
+}
